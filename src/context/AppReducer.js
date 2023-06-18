@@ -1,3 +1,8 @@
+// Initial State Will be Object That Hold Key:Transaction[]
+// const initialState = {
+//   transactions: []
+// }
+
 export default (state, action) => {
   switch(action.type) {
     case 'DELETE_TRANSACTION':
